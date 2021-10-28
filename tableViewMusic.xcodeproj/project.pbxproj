@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0060525E7712EDF52D7A0DB7 /* Pods_tableViewMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D468663A5A23D59E177ADED /* Pods_tableViewMusic.framework */; };
 		8B54747225ADE77C00A6D2C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54747125ADE77C00A6D2C7 /* AppDelegate.swift */; };
 		8B54747425ADE77C00A6D2C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54747325ADE77C00A6D2C7 /* SceneDelegate.swift */; };
-		8B54747625ADE77C00A6D2C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54747525ADE77C00A6D2C7 /* ViewController.swift */; };
 		8B54747925ADE77C00A6D2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B54747725ADE77C00A6D2C7 /* Main.storyboard */; };
 		8B54747B25ADE77F00A6D2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B54747A25ADE77F00A6D2C7 /* Assets.xcassets */; };
 		8B54747E25ADE77F00A6D2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B54747C25ADE77F00A6D2C7 /* LaunchScreen.storyboard */; };
+		8B54748825ADE7CB00A6D2C7 /* MusicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54748725ADE7CB00A6D2C7 /* MusicTableView.swift */; };
+		8B54748B25ADE83000A6D2C7 /* MusicCompositionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54748A25ADE83000A6D2C7 /* MusicCompositionTableViewCell.swift */; };
+		8B54748F25AEA4F300A6D2C7 /* AddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54748E25AEA4F300A6D2C7 /* AddScreen.swift */; };
+		8B5C3F9B271AB2E20065884B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C3F9A271AB2E20065884B /* SignUpView.swift */; };
+		8B5C3F9E271AB2EC0065884B /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C3F9D271AB2EC0065884B /* SignInEmailView.swift */; };
+		8B5C3FA5271AB34D0065884B /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C3FA4271AB34D0065884B /* UITextViewExtension.swift */; };
+		8B5C3FA9271AB4A40065884B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B5C3FA8271AB4A40065884B /* GoogleService-Info.plist */; };
+		8B8CD4E2271AB58E000785BF /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CD4E1271AB58E000785BF /* SongModel.swift */; };
+		8B8CD508271AC7D4000785BF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CD507271AC7D4000785BF /* ProfileView.swift */; };
+		8B8CD50B271AC945000785BF /* MusicTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CD50A271AC945000785BF /* MusicTableViewExtension.swift */; };
+		8B8CD513271D4CBB000785BF /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CD512271D4CBB000785BF /* CurrentUser.swift */; };
+		8B8CD516271D5990000785BF /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CD515271D5990000785BF /* IntExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111B480A7E5360F80F805BE2 /* Pods-tableViewMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableViewMusic.debug.xcconfig"; path = "Target Support Files/Pods-tableViewMusic/Pods-tableViewMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		4D468663A5A23D59E177ADED /* Pods_tableViewMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableViewMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C5C6075A8BD8B2C42CDAEF /* Pods-tableViewMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableViewMusic.release.xcconfig"; path = "Target Support Files/Pods-tableViewMusic/Pods-tableViewMusic.release.xcconfig"; sourceTree = "<group>"; };
 		8B54746E25ADE77C00A6D2C7 /* tableViewMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B54747125ADE77C00A6D2C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B54747325ADE77C00A6D2C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B54747525ADE77C00A6D2C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B54747825ADE77C00A6D2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B54747A25ADE77F00A6D2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B54747D25ADE77F00A6D2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B54747F25ADE77F00A6D2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B54748725ADE7CB00A6D2C7 /* MusicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableView.swift; sourceTree = "<group>"; };
+		8B54748A25ADE83000A6D2C7 /* MusicCompositionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCompositionTableViewCell.swift; sourceTree = "<group>"; };
+		8B54748E25AEA4F300A6D2C7 /* AddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreen.swift; sourceTree = "<group>"; };
+		8B5C3F9A271AB2E20065884B /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8B5C3F9D271AB2EC0065884B /* SignInEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		8B5C3FA4271AB34D0065884B /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		8B5C3FA8271AB4A40065884B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B8CD4E1271AB58E000785BF /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		8B8CD507271AC7D4000785BF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8B8CD50A271AC945000785BF /* MusicTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewExtension.swift; sourceTree = "<group>"; };
+		8B8CD512271D4CBB000785BF /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		8B8CD515271D5990000785BF /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0060525E7712EDF52D7A0DB7 /* Pods_tableViewMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CEFD09B97D5E8E6B653C625 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				111B480A7E5360F80F805BE2 /* Pods-tableViewMusic.debug.xcconfig */,
+				61C5C6075A8BD8B2C42CDAEF /* Pods-tableViewMusic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8B54746525ADE77C00A6D2C7 = {
 			isa = PBXGroup;
 			children = (
-				8B54747025ADE77C00A6D2C7 /* tableViewMusic */,
+				8B54747025ADE77C00A6D2C7 /* FirebasePractice */,
 				8B54746F25ADE77C00A6D2C7 /* Products */,
+				7CEFD09B97D5E8E6B653C625 /* Pods */,
+				A434FA1E56C92F6190A9E202 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,18 +91,229 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B54747025ADE77C00A6D2C7 /* tableViewMusic */ = {
+		8B54747025ADE77C00A6D2C7 /* FirebasePractice */ = {
 			isa = PBXGroup;
 			children = (
-				8B54747125ADE77C00A6D2C7 /* AppDelegate.swift */,
-				8B54747325ADE77C00A6D2C7 /* SceneDelegate.swift */,
-				8B54747525ADE77C00A6D2C7 /* ViewController.swift */,
-				8B54747725ADE77C00A6D2C7 /* Main.storyboard */,
-				8B54747A25ADE77F00A6D2C7 /* Assets.xcassets */,
-				8B54747C25ADE77F00A6D2C7 /* LaunchScreen.storyboard */,
+				8B8960AF272B31BE008AC2D0 /* Application */,
+				8B8960B3272B31EB008AC2D0 /* MainCollectionViewScreen */,
+				8B8960B9272B3243008AC2D0 /* ProfileScreen */,
+				8B8960BF272B32E5008AC2D0 /* AddScreen */,
+				8B8960C5272B333B008AC2D0 /* SignInScreen */,
+				8B8960C7272B3351008AC2D0 /* SignUpScreen */,
+				8B8CD4F4271AB626000785BF /* AdditionalFiles */,
 				8B54747F25ADE77F00A6D2C7 /* Info.plist */,
 			);
-			path = tableViewMusic;
+			path = FirebasePractice;
+			sourceTree = "<group>";
+		};
+		8B8960AF272B31BE008AC2D0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960B2272B31CE008AC2D0 /* Model */,
+				8B8960B1272B31C9008AC2D0 /* View */,
+				8B8960B0272B31C3008AC2D0 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B8960B0272B31C3008AC2D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B54747325ADE77C00A6D2C7 /* SceneDelegate.swift */,
+				8B54747125ADE77C00A6D2C7 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B8960B1272B31C9008AC2D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B54747725ADE77C00A6D2C7 /* Main.storyboard */,
+				8B54747C25ADE77F00A6D2C7 /* LaunchScreen.storyboard */,
+				8B8960C3272B3314008AC2D0 /* Extensions */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B8960B2272B31CE008AC2D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B8960B3272B31EB008AC2D0 /* MainCollectionViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960B6272B3205008AC2D0 /* Model */,
+				8B8960B5272B3201008AC2D0 /* View */,
+				8B8960B4272B31FB008AC2D0 /* Controller */,
+			);
+			path = MainCollectionViewScreen;
+			sourceTree = "<group>";
+		};
+		8B8960B4272B31FB008AC2D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B54748725ADE7CB00A6D2C7 /* MusicTableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B8960B5272B3201008AC2D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960B8272B3228008AC2D0 /* Cell */,
+				8B8960B7272B3220008AC2D0 /* Extension */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B8960B6272B3205008AC2D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B8CD4E1271AB58E000785BF /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B8960B7272B3220008AC2D0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B8CD50A271AC945000785BF /* MusicTableViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8B8960B8272B3228008AC2D0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8B54748A25ADE83000A6D2C7 /* MusicCompositionTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8B8960B9272B3243008AC2D0 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960BC272B3267008AC2D0 /* Model */,
+				8B8960BD272B3274008AC2D0 /* View */,
+				8B8960BA272B325C008AC2D0 /* Controller */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		8B8960BA272B325C008AC2D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B8CD507271AC7D4000785BF /* ProfileView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B8960BC272B3267008AC2D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B8CD512271D4CBB000785BF /* CurrentUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B8960BD272B3274008AC2D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B8960BF272B32E5008AC2D0 /* AddScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960C2272B32FF008AC2D0 /* Model */,
+				8B8960C1272B32FB008AC2D0 /* View */,
+				8B8960C0272B32F5008AC2D0 /* Controller */,
+			);
+			path = AddScreen;
+			sourceTree = "<group>";
+		};
+		8B8960C0272B32F5008AC2D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B54748E25AEA4F300A6D2C7 /* AddScreen.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B8960C1272B32FB008AC2D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B8960C2272B32FF008AC2D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B8960C3272B3314008AC2D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C3FA4271AB34D0065884B /* UITextViewExtension.swift */,
+				8B8CD515271D5990000785BF /* IntExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B8960C5272B333B008AC2D0 /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960C6272B3345008AC2D0 /* Controller */,
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
+		8B8960C6272B3345008AC2D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C3F9D271AB2EC0065884B /* SignInEmailView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B8960C7272B3351008AC2D0 /* SignUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B8960C8272B335E008AC2D0 /* Controller */,
+			);
+			path = SignUpScreen;
+			sourceTree = "<group>";
+		};
+		8B8960C8272B335E008AC2D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C3F9A271AB2E20065884B /* SignUpView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B8CD4F4271AB626000785BF /* AdditionalFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8B54747A25ADE77F00A6D2C7 /* Assets.xcassets */,
+				8B5C3FA8271AB4A40065884B /* GoogleService-Info.plist */,
+			);
+			path = AdditionalFiles;
+			sourceTree = "<group>";
+		};
+		A434FA1E56C92F6190A9E202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D468663A5A23D59E177ADED /* Pods_tableViewMusic.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B54748225ADE77F00A6D2C7 /* Build configuration list for PBXNativeTarget "tableViewMusic" */;
 			buildPhases = (
+				702391D63373592BF733E91B /* [CP] Check Pods Manifest.lock */,
 				8B54746A25ADE77C00A6D2C7 /* Sources */,
 				8B54746B25ADE77C00A6D2C7 /* Frameworks */,
 				8B54746C25ADE77C00A6D2C7 /* Resources */,
+				101BF018CB5CD353A16D3D49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5C3FA9271AB4A40065884B /* GoogleService-Info.plist in Resources */,
 				8B54747E25ADE77F00A6D2C7 /* LaunchScreen.storyboard in Resources */,
 				8B54747B25ADE77F00A6D2C7 /* Assets.xcassets in Resources */,
 				8B54747925ADE77C00A6D2C7 /* Main.storyboard in Resources */,
@@ -132,14 +384,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		101BF018CB5CD353A16D3D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tableViewMusic/Pods-tableViewMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tableViewMusic/Pods-tableViewMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tableViewMusic/Pods-tableViewMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702391D63373592BF733E91B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tableViewMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B54746A25ADE77C00A6D2C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B54747625ADE77C00A6D2C7 /* ViewController.swift in Sources */,
 				8B54747225ADE77C00A6D2C7 /* AppDelegate.swift in Sources */,
 				8B54747425ADE77C00A6D2C7 /* SceneDelegate.swift in Sources */,
+				8B8CD508271AC7D4000785BF /* ProfileView.swift in Sources */,
+				8B8CD4E2271AB58E000785BF /* SongModel.swift in Sources */,
+				8B54748B25ADE83000A6D2C7 /* MusicCompositionTableViewCell.swift in Sources */,
+				8B8CD513271D4CBB000785BF /* CurrentUser.swift in Sources */,
+				8B54748825ADE7CB00A6D2C7 /* MusicTableView.swift in Sources */,
+				8B5C3F9B271AB2E20065884B /* SignUpView.swift in Sources */,
+				8B8CD50B271AC945000785BF /* MusicTableViewExtension.swift in Sources */,
+				8B8CD516271D5990000785BF /* IntExtension.swift in Sources */,
+				8B54748F25AEA4F300A6D2C7 /* AddScreen.swift in Sources */,
+				8B5C3F9E271AB2EC0065884B /* SignInEmailView.swift in Sources */,
+				8B5C3FA5271AB34D0065884B /* UITextViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +587,13 @@
 		};
 		8B54748325ADE77F00A6D2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111B480A7E5360F80F805BE2 /* Pods-tableViewMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27XLCNX4SV;
-				INFOPLIST_FILE = tableViewMusic/Info.plist;
+				INFOPLIST_FILE = FirebasePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +607,13 @@
 		};
 		8B54748425ADE77F00A6D2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C5C6075A8BD8B2C42CDAEF /* Pods-tableViewMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27XLCNX4SV;
-				INFOPLIST_FILE = tableViewMusic/Info.plist;
+				INFOPLIST_FILE = FirebasePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
